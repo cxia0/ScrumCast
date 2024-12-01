@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		091BEAA22CFCE0DF002F5DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 091BEA892CFCE0DE002F5DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091BEA902CFCE0DE002F5DEC;
+			remoteInfo = ScrumCast;
+		};
+		091BEAAC2CFCE0DF002F5DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 091BEA892CFCE0DE002F5DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091BEA902CFCE0DE002F5DEC;
+			remoteInfo = ScrumCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091BEA912CFCE0DE002F5DEC /* ScrumCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091BEAA12CFCE0DF002F5DEC /* ScrumCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		091BEAAB2CFCE0DF002F5DEC /* ScrumCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		091BEA932CFCE0DE002F5DEC /* ScrumCast */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScrumCast;
+			sourceTree = "<group>";
+		};
+		091BEAA42CFCE0DF002F5DEC /* ScrumCastTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScrumCastTests;
+			sourceTree = "<group>";
+		};
+		091BEAAE2CFCE0DF002F5DEC /* ScrumCastUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScrumCastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091BEA8E2CFCE0DE002F5DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091BEA9E2CFCE0DF002F5DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091BEAA82CFCE0DF002F5DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091BEA882CFCE0DE002F5DEC = {
+			isa = PBXGroup;
+			children = (
+				091BEA932CFCE0DE002F5DEC /* ScrumCast */,
+				091BEAA42CFCE0DF002F5DEC /* ScrumCastTests */,
+				091BEAAE2CFCE0DF002F5DEC /* ScrumCastUITests */,
+				091BEA922CFCE0DE002F5DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		091BEA922CFCE0DE002F5DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091BEA912CFCE0DE002F5DEC /* ScrumCast.app */,
+				091BEAA12CFCE0DF002F5DEC /* ScrumCastTests.xctest */,
+				091BEAAB2CFCE0DF002F5DEC /* ScrumCastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091BEA902CFCE0DE002F5DEC /* ScrumCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091BEAB52CFCE0DF002F5DEC /* Build configuration list for PBXNativeTarget "ScrumCast" */;
+			buildPhases = (
+				091BEA8D2CFCE0DE002F5DEC /* Sources */,
+				091BEA8E2CFCE0DE002F5DEC /* Frameworks */,
+				091BEA8F2CFCE0DE002F5DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				091BEA932CFCE0DE002F5DEC /* ScrumCast */,
+			);
+			name = ScrumCast;
+			packageProductDependencies = (
+			);
+			productName = ScrumCast;
+			productReference = 091BEA912CFCE0DE002F5DEC /* ScrumCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		091BEAA02CFCE0DF002F5DEC /* ScrumCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091BEAB82CFCE0DF002F5DEC /* Build configuration list for PBXNativeTarget "ScrumCastTests" */;
+			buildPhases = (
+				091BEA9D2CFCE0DF002F5DEC /* Sources */,
+				091BEA9E2CFCE0DF002F5DEC /* Frameworks */,
+				091BEA9F2CFCE0DF002F5DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091BEAA32CFCE0DF002F5DEC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				091BEAA42CFCE0DF002F5DEC /* ScrumCastTests */,
+			);
+			name = ScrumCastTests;
+			packageProductDependencies = (
+			);
+			productName = ScrumCastTests;
+			productReference = 091BEAA12CFCE0DF002F5DEC /* ScrumCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		091BEAAA2CFCE0DF002F5DEC /* ScrumCastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091BEABB2CFCE0DF002F5DEC /* Build configuration list for PBXNativeTarget "ScrumCastUITests" */;
+			buildPhases = (
+				091BEAA72CFCE0DF002F5DEC /* Sources */,
+				091BEAA82CFCE0DF002F5DEC /* Frameworks */,
+				091BEAA92CFCE0DF002F5DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091BEAAD2CFCE0DF002F5DEC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				091BEAAE2CFCE0DF002F5DEC /* ScrumCastUITests */,
+			);
+			name = ScrumCastUITests;
+			packageProductDependencies = (
+			);
+			productName = ScrumCastUITests;
+			productReference = 091BEAAB2CFCE0DF002F5DEC /* ScrumCastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091BEA892CFCE0DE002F5DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					091BEA902CFCE0DE002F5DEC = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					091BEAA02CFCE0DF002F5DEC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 091BEA902CFCE0DE002F5DEC;
+					};
+					091BEAAA2CFCE0DF002F5DEC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 091BEA902CFCE0DE002F5DEC;
+					};
+				};
+			};
+			buildConfigurationList = 091BEA8C2CFCE0DE002F5DEC /* Build configuration list for PBXProject "ScrumCast" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 091BEA882CFCE0DE002F5DEC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 091BEA922CFCE0DE002F5DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091BEA902CFCE0DE002F5DEC /* ScrumCast */,
+				091BEAA02CFCE0DF002F5DEC /* ScrumCastTests */,
+				091BEAAA2CFCE0DF002F5DEC /* ScrumCastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091BEA8F2CFCE0DE002F5DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091BEA9F2CFCE0DF002F5DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091BEAA92CFCE0DF002F5DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091BEA8D2CFCE0DE002F5DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091BEA9D2CFCE0DF002F5DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091BEAA72CFCE0DF002F5DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		091BEAA32CFCE0DF002F5DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 091BEA902CFCE0DE002F5DEC /* ScrumCast */;
+			targetProxy = 091BEAA22CFCE0DF002F5DEC /* PBXContainerItemProxy */;
+		};
+		091BEAAD2CFCE0DF002F5DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 091BEA902CFCE0DE002F5DEC /* ScrumCast */;
+			targetProxy = 091BEAAC2CFCE0DF002F5DEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		091BEAB32CFCE0DF002F5DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		091BEAB42CFCE0DF002F5DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		091BEAB62CFCE0DF002F5DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScrumCast/Preview Content\"";
+				DEVELOPMENT_TEAM = 3N3LT25462;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ikimo.ScrumCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		091BEAB72CFCE0DF002F5DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScrumCast/Preview Content\"";
+				DEVELOPMENT_TEAM = 3N3LT25462;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ikimo.ScrumCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		091BEAB92CFCE0DF002F5DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N3LT25462;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ikimo.ScrumCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrumCast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScrumCast";
+			};
+			name = Debug;
+		};
+		091BEABA2CFCE0DF002F5DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N3LT25462;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ikimo.ScrumCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrumCast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScrumCast";
+			};
+			name = Release;
+		};
+		091BEABC2CFCE0DF002F5DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N3LT25462;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ikimo.ScrumCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrumCast;
+			};
+			name = Debug;
+		};
+		091BEABD2CFCE0DF002F5DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N3LT25462;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ikimo.ScrumCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrumCast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091BEA8C2CFCE0DE002F5DEC /* Build configuration list for PBXProject "ScrumCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091BEAB32CFCE0DF002F5DEC /* Debug */,
+				091BEAB42CFCE0DF002F5DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091BEAB52CFCE0DF002F5DEC /* Build configuration list for PBXNativeTarget "ScrumCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091BEAB62CFCE0DF002F5DEC /* Debug */,
+				091BEAB72CFCE0DF002F5DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091BEAB82CFCE0DF002F5DEC /* Build configuration list for PBXNativeTarget "ScrumCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091BEAB92CFCE0DF002F5DEC /* Debug */,
+				091BEABA2CFCE0DF002F5DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091BEABB2CFCE0DF002F5DEC /* Build configuration list for PBXNativeTarget "ScrumCastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091BEABC2CFCE0DF002F5DEC /* Debug */,
+				091BEABD2CFCE0DF002F5DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 091BEA892CFCE0DE002F5DEC /* Project object */;
+}
