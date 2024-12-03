@@ -11,7 +11,7 @@ import SwiftUI
 struct ScrumCastApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScrumCastView()
         }
     }
 }
